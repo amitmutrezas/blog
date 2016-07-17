@@ -1,9 +1,33 @@
 Rails.application.routes.draw do
+  devise_for :users, :controllers => { :registrations => "users/registrations" }
+
+  get 'users/change_password'
+
+  get 'authors/index'
+
+  get 'authors/show'
+
+  get 'authors/edit'
+
+  get 'authors/new'
+
+  get 'articles/index'
+
+  get 'articles/new'
+
+  get 'welcome/index'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+  resources :authors do
+    resources :articles
+  end
+  resources :articles do
+    resources :comments
+  end
+   root 'welcome#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

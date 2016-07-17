@@ -1,0 +1,216 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '-g', 'jslint' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'jslint', null ]
+6 verbose cache add name=undefined spec="jslint" args=["jslint",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'jslint',
+7 verbose parsed url   path: 'jslint',
+7 verbose parsed url   href: 'jslint' }
+8 silly lockFile 606b7026-jslint jslint
+9 verbose lock jslint /home/amit/.npm/606b7026-jslint.lock
+10 silly lockFile 606b7026-jslint jslint
+11 silly lockFile 606b7026-jslint jslint
+12 verbose addNamed [ 'jslint', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 564fcf84-jslint jslint@
+15 verbose lock jslint@ /home/amit/.npm/564fcf84-jslint.lock
+16 silly addNameRange { name: 'jslint', range: '*', hasData: false }
+17 verbose request where is /jslint
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id 74292d3ca7d10023
+20 verbose url raw /jslint
+21 verbose url resolving [ 'https://registry.npmjs.org/', './jslint' ]
+22 verbose url resolved https://registry.npmjs.org/jslint
+23 verbose request where is https://registry.npmjs.org/jslint
+24 info trying registry request attempt 1 at 16:09:18
+25 http GET https://registry.npmjs.org/jslint
+26 http 200 https://registry.npmjs.org/jslint
+27 silly registry.get cb [ 200,
+27 silly registry.get   { date: 'Tue, 17 Feb 2015 10:39:21 GMT',
+27 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 silly registry.get     etag: '"58Z6PLOKJVC4L1Z6FW3IS6VXY"',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=60',
+27 silly registry.get     'content-length': '79561',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '0',
+27 silly registry.get     'x-served-by': 'cache-fra1239-FRA',
+27 silly registry.get     'x-cache': 'HIT',
+27 silly registry.get     'x-cache-hits': '1',
+27 silly registry.get     'x-timer': 'S1424169561.363506,VS0,VE173',
+27 silly registry.get     vary: 'Accept',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 silly addNameRange number 2 { name: 'jslint', range: '*', hasData: true }
+29 silly addNameRange versions [ 'jslint',
+29 silly addNameRange   [ '0.0.2',
+29 silly addNameRange     '0.0.3',
+29 silly addNameRange     '0.1.0',
+29 silly addNameRange     '0.1.1',
+29 silly addNameRange     '0.1.2',
+29 silly addNameRange     '0.1.3',
+29 silly addNameRange     '0.1.4',
+29 silly addNameRange     '0.1.5',
+29 silly addNameRange     '0.1.6',
+29 silly addNameRange     '0.1.8',
+29 silly addNameRange     '0.1.9',
+29 silly addNameRange     '0.1.10',
+29 silly addNameRange     '0.1.11',
+29 silly addNameRange     '0.2.0',
+29 silly addNameRange     '0.2.1',
+29 silly addNameRange     '0.2.2',
+29 silly addNameRange     '0.2.3',
+29 silly addNameRange     '0.2.4',
+29 silly addNameRange     '0.2.5',
+29 silly addNameRange     '0.2.6',
+29 silly addNameRange     '0.2.7',
+29 silly addNameRange     '0.2.8',
+29 silly addNameRange     '0.2.9',
+29 silly addNameRange     '0.2.10',
+29 silly addNameRange     '0.2.11',
+29 silly addNameRange     '0.3.0',
+29 silly addNameRange     '0.3.1',
+29 silly addNameRange     '0.3.2',
+29 silly addNameRange     '0.3.3',
+29 silly addNameRange     '0.3.4',
+29 silly addNameRange     '0.4.0',
+29 silly addNameRange     '0.4.1',
+29 silly addNameRange     '0.5.0',
+29 silly addNameRange     '0.5.1',
+29 silly addNameRange     '0.5.2',
+29 silly addNameRange     '0.6.1',
+29 silly addNameRange     '0.6.2',
+29 silly addNameRange     '0.6.4',
+29 silly addNameRange     '0.6.5',
+29 silly addNameRange     '0.6.6',
+29 silly addNameRange     '0.7.0',
+29 silly addNameRange     '0.7.1',
+29 silly addNameRange     '0.7.2',
+29 silly addNameRange     '0.7.3' ] ]
+30 verbose addNamed [ 'jslint', '0.7.3' ]
+31 verbose addNamed [ '0.7.3', '0.7.3' ]
+32 silly lockFile 6a69641f-jslint-0-7-3 jslint@0.7.3
+33 verbose lock jslint@0.7.3 /home/amit/.npm/6a69641f-jslint-0-7-3.lock
+34 silly lockFile ea83fedd-pmjs-org-jslint-jslint-0-7-3-tgz https://registry.npmjs.org/jslint/-/jslint-0.7.3.tgz
+35 verbose lock https://registry.npmjs.org/jslint/-/jslint-0.7.3.tgz /home/amit/.npm/ea83fedd-pmjs-org-jslint-jslint-0-7-3-tgz.lock
+36 verbose addRemoteTarball [ 'https://registry.npmjs.org/jslint/-/jslint-0.7.3.tgz',
+36 verbose addRemoteTarball   '508441dbd48bf897912d73ff74bd4b6123aaba8c' ]
+37 info retry fetch attempt 1 at 16:09:21
+38 verbose fetch to= /tmp/npm-9040-3qUXs3N3/registry.npmjs.org/jslint/-/jslint-0.7.3.tgz
+39 http GET https://registry.npmjs.org/jslint/-/jslint-0.7.3.tgz
+40 http 200 https://registry.npmjs.org/jslint/-/jslint-0.7.3.tgz
+41 silly lockFile ea83fedd-pmjs-org-jslint-jslint-0-7-3-tgz https://registry.npmjs.org/jslint/-/jslint-0.7.3.tgz
+42 silly lockFile ea83fedd-pmjs-org-jslint-jslint-0-7-3-tgz https://registry.npmjs.org/jslint/-/jslint-0.7.3.tgz
+43 silly lockFile 6a69641f-jslint-0-7-3 jslint@0.7.3
+44 silly lockFile 6a69641f-jslint-0-7-3 jslint@0.7.3
+45 silly lockFile 564fcf84-jslint jslint@
+46 silly lockFile 564fcf84-jslint jslint@
+47 silly resolved [ { name: 'jslint',
+47 silly resolved     description: 'The JavaScript Code Quality Tool',
+47 silly resolved     homepage: 'https://github.com/reid/node-jslint',
+47 silly resolved     keywords:
+47 silly resolved      [ 'lint',
+47 silly resolved        'jslint',
+47 silly resolved        'code-quality',
+47 silly resolved        'static-analysis',
+47 silly resolved        'jshint',
+47 silly resolved        'eslint' ],
+47 silly resolved     version: '0.7.3',
+47 silly resolved     author: { name: 'Reid Burke', email: 'me@reidburke.com' },
+47 silly resolved     contributors:
+47 silly resolved      [ [Object],
+47 silly resolved        [Object],
+47 silly resolved        [Object],
+47 silly resolved        [Object],
+47 silly resolved        [Object],
+47 silly resolved        [Object],
+47 silly resolved        [Object],
+47 silly resolved        [Object],
+47 silly resolved        [Object],
+47 silly resolved        [Object],
+47 silly resolved        [Object],
+47 silly resolved        [Object],
+47 silly resolved        [Object],
+47 silly resolved        [Object] ],
+47 silly resolved     bin: { jslint: './bin/jslint.js' },
+47 silly resolved     main: './lib/nodelint.js',
+47 silly resolved     dependencies:
+47 silly resolved      { exit: '~0.1.2',
+47 silly resolved        glob: '^4.3.5',
+47 silly resolved        nopt: '~3.0.1',
+47 silly resolved        'readable-stream': '~1.0.31' },
+47 silly resolved     devDependencies:
+47 silly resolved      { 'fs.extra': '^1.3.2',
+47 silly resolved        istanbul: '^0.3.5',
+47 silly resolved        mocha: '^2.1.0',
+47 silly resolved        ronn: '0.4.0' },
+47 silly resolved     engines: { node: '>=0.8.0' },
+47 silly resolved     files: [ 'man', 'doc', 'lib', 'bin', 'jslintrc.example', 'Makefile' ],
+47 silly resolved     directories: { lib: './lib', man: './man', doc: './doc' },
+47 silly resolved     man: [ 'man/jslint.1' ],
+47 silly resolved     repository: { type: 'git', url: 'git://github.com/reid/node-jslint.git' },
+47 silly resolved     bugs: { url: 'https://github.com/reid/node-jslint/issues' },
+47 silly resolved     licenses: [ [Object] ],
+47 silly resolved     scripts: { test: 'make test', mypublish: 'make prepublish; npm publish' },
+47 silly resolved     gitHead: '1996bd457ed7b3bc348694ee01a3673110055f58',
+47 silly resolved     _id: 'jslint@0.7.3',
+47 silly resolved     _shasum: '508441dbd48bf897912d73ff74bd4b6123aaba8c',
+47 silly resolved     _from: 'jslint@',
+47 silly resolved     _npmVersion: '2.5.0',
+47 silly resolved     _nodeVersion: '1.0.4',
+47 silly resolved     _npmUser: { name: 'smikes', email: 'smikes@cubane.com' },
+47 silly resolved     maintainers: [ [Object], [Object], [Object] ],
+47 silly resolved     dist:
+47 silly resolved      { shasum: '508441dbd48bf897912d73ff74bd4b6123aaba8c',
+47 silly resolved        tarball: 'http://registry.npmjs.org/jslint/-/jslint-0.7.3.tgz' },
+47 silly resolved     _resolved: 'https://registry.npmjs.org/jslint/-/jslint-0.7.3.tgz' } ]
+48 info install jslint@0.7.3 into /usr/lib
+49 info installOne jslint@0.7.3
+50 verbose lib/node_modules/jslint unbuild
+51 verbose tar unpack /home/amit/.npm/jslint/0.7.3/package.tgz
+52 silly lockFile d8a3a9b3-tar-usr-lib-node-modules-jslint tar:///usr/lib/node_modules/jslint
+53 verbose lock tar:///usr/lib/node_modules/jslint /home/amit/.npm/d8a3a9b3-tar-usr-lib-node-modules-jslint.lock
+54 silly lockFile 45afbb5e-mit-npm-jslint-0-7-3-package-tgz tar:///home/amit/.npm/jslint/0.7.3/package.tgz
+55 verbose lock tar:///home/amit/.npm/jslint/0.7.3/package.tgz /home/amit/.npm/45afbb5e-mit-npm-jslint-0-7-3-package-tgz.lock
+56 silly gunzTarPerm modes [ '775', '664' ]
+57 error Error: EACCES, mkdir '/usr/lib/node_modules/jslint'
+57 error  { [Error: EACCES, mkdir '/usr/lib/node_modules/jslint']
+57 error   errno: 3,
+57 error   code: 'EACCES',
+57 error   path: '/usr/lib/node_modules/jslint',
+57 error   fstream_type: 'Directory',
+57 error   fstream_path: '/usr/lib/node_modules/jslint',
+57 error   fstream_class: 'DirWriter',
+57 error   fstream_stack:
+57 error    [ '/usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+57 error      '/usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+57 error      'Object.oncomplete (fs.js:108:15)' ] }
+58 error Please try running this command again as root/Administrator.
+59 error System Linux 3.5.0-44-generic
+60 error command "/usr/bin/node" "/usr/bin/npm" "install" "-g" "jslint"
+61 error cwd /home/amit/blog
+62 error node -v v0.10.36
+63 error npm -v 1.4.28
+64 error path /usr/lib/node_modules/jslint
+65 error fstream_path /usr/lib/node_modules/jslint
+66 error fstream_type Directory
+67 error fstream_class DirWriter
+68 error code EACCES
+69 error errno 3
+70 error stack Error: EACCES, mkdir '/usr/lib/node_modules/jslint'
+71 error fstream_stack /usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+71 error fstream_stack /usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+71 error fstream_stack Object.oncomplete (fs.js:108:15)
+72 verbose exit [ 3, true ]
